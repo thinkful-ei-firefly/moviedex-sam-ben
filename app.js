@@ -20,7 +20,7 @@ app.use(function validateBearerToken(req, res, next) {
   next();
 });
 
-app.get('/movie', function handleGetMovie(req, res) {
+app.get('/movie', (req, res) => {
   let { genre, country, avg_vote } = req.query;
 
   let results = store;
