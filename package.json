@@ -1,0 +1,26 @@
+{
+  "name": "moviedex-sam-ben",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thinkful-ei-firefly/moviedex-sam-ben.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thinkful-ei-firefly/moviedex-sam-ben/issues"
+  },
+  "homepage": "https://github.com/thinkful-ei-firefly/moviedex-sam-ben#readme",
+  "dependencies": {
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.1"
+  }
+}
